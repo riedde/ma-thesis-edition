@@ -1,0 +1,139 @@
+:root {
+  --mlu-green: #b1e053;
+  --mlu-violet: #993c8c;
+  --main-mlu: color-mix(in srgb, var(--mlu-green) 85%, transparent);
+  --main-mlu-light: color-mix(in srgb, var(--main-mlu) 30%, transparent);
+  --main-mlu-accent: var(--mlu-violet);
+  --main-color-text: rgb(var(--color-text));
+  --main-color-text-light: color-mix(in srgb, var(--main-color-text) 85%, transparent);
+  --main-color-code: #000099;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+h1.lia-h1 {
+  font-size:5vw !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+
+#lia-spacer-right {
+  background-image: url("https://wcms.itz.uni-halle.de/download.php?down=57357&elem=3333420") !important;
+  background-position: center !important;
+  background-size: 36px !important;
+  background-repeat: no-repeat !important;
+}
+
+
+.lia-content{
+  background-image: url("https://wcms.itz.uni-halle.de/download.php?down=57357&elem=3333420") !important;
+  background-size: 200px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.lia-toolbar {
+  background: var(--main-mlu) !important;
+}
+
+.lia-btn {
+  background: var(--main-mlu) !important;
+}
+
+.lia-input {
+  background: var(--main-mlu) !important;
+}
+
+.lia-active {
+  background: var(--main-mlu) !important;
+}
+
+.lia-quote {
+  background: var(--main-mlu-light) !important;
+  border-left-color: var(--main-mlu-accent) !important;
+  color: var(--main-mlu-accent) !important;
+  margin: 3% !important;
+  width: 70%;
+}
+
+.lia-quote__text, .lia-quote .lia-paragraph {
+  color: var(--main-color-text) !important;
+  text-align: left;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 2.25rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.25;
+}
+
+.lia-cite, .lia-quote__cite {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.75rem !important;
+  display: block;
+}
+
+.lia-list--unordered > li::marker, .lia-list--ordered > li::marker {
+  color: var(--main-color-text-light) !important;
+  padding-inline-start: 3rem;
+}
+
+.lia-accordion {
+  background: var(--main-mlu) !important;
+  font-size: 12px !important;
+}
+
+.lia-accordion-dummy {
+  background: var(--main-mlu) !important;
+  font-size: 12px !important;
+}
+
+.lia-quiz {
+  border-color: var(--main-mlu) !important;
+}
+
+.lia-link, .lia-active {
+  color: var(--main-mlu-accent) !important;
+}
+
+.lia-pagination__content {
+  background: var(--main-mlu);
+  color: var(--main-mlu-accent);
+}
+
+.lia-divider {
+  background-color: var(--main-mlu);
+  height: 2px;
+  border: 0;
+  margin: 1.5rem 0;
+}
+
+.lia-progress {
+  background: var(--main-mlu-accent);
+}
+
+.lia-effect__circle {
+  background: var(--main-mlu);
+  color: var(--main-mlu-accent);
+}
+
+.card {
+  border: 5px solid var(--main-mlu) !important;
+}
+
+.card__version {
+  background-color: var(--main-mlu);
+  color: var(--main-mlu-accent);
+}
+
+.card__title::before {
+  background-color: var(--main-mlu);
+}
+
+.lia-code--inline {
+  border: 1px solid darkgray;
+  color: var(--main-color-code);
+}
