@@ -55,8 +55,9 @@ h1.lia-h1 {
   background: var(--main-mlu-light) !important;
   border-left-color: var(--main-mlu-accent) !important;
   color: var(--main-mlu-accent) !important;
-  margin: 3% !important;
-  width: 70%;
+  margin: 3% ;
+  margin-left: 5% ;
+  margin-right: 5% ;
 }
 
 .lia-quote__text, .lia-quote .lia-paragraph {
